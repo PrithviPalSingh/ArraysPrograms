@@ -23,7 +23,46 @@ namespace Arrays
             #endregion
 
             #region - array manipulation
-            ArrayManipulation();
+            //ArrayManipulation();
+            #endregion
+
+            #region - Dynamic array
+            string[] tokens_n = Console.ReadLine().Split(' ');
+            long seqlistcount = Convert.ToInt64(tokens_n[0]);
+            long queryCount = Convert.ToInt64(tokens_n[1]);
+            var seqList = new string[seqlistcount];
+
+            long lastAnswer = 0;
+            for (int i = 0; i < queryCount; i++)
+            {
+                string[] queryValues = Console.ReadLine().Split(' ');
+                long seqIndex = Convert.ToInt64(queryValues[0]);
+                long x = Convert.ToInt64(queryValues[1]);
+                long y = Convert.ToInt64(queryValues[2]);
+
+                if (1 == seqIndex)
+                {
+                    var index = ((x ^ lastAnswer) % seqlistcount);
+                    if (string.IsNullOrWhiteSpace(seqList[index]))
+                    {
+                        seqList[index] = y.ToString();
+                    }
+                    else
+                    {
+                        seqList[index] = seqList[index] + "," + y;
+                    }
+                }
+                else if (2 == seqIndex)
+                {
+                    var index = ((x ^ lastAnswer) % seqlistcount);
+
+                    var z = seqList[index].Split(',');
+                    var t = y % z.Length;
+                    lastAnswer = Convert.ToInt64(z[t]);
+                    Console.WriteLine(lastAnswer);
+                }
+
+            }
             #endregion
 
             Console.Read();
