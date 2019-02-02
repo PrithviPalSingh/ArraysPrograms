@@ -65,9 +65,15 @@ namespace Arrays
             //}
             #endregion
 
-            MinDist2Numbers minmaxdist = new MinDist2Numbers();
-            Console.WriteLine(minmaxdist.minDist(new long[] { 86, 39, 90, 67, 84, 66, 62 },
-                 7, 86, 84));
+            //MinDist2Numbers minmaxdist = new MinDist2Numbers();
+            //Console.WriteLine(minmaxdist.minDist(new long[] { 86, 39, 90, 67, 84, 66, 62 },
+            //     7, 86, 84));
+
+            OperatingAnArray opa = new OperatingAnArray();
+            var a = new int[] { 2, 4, 1, 0, 6 };
+            opa.insertEle(a, 2, 2);
+            
+            Console.WriteLine(a[2]);
 
 
             Console.Read();
