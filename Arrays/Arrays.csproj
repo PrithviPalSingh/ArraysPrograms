@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChocolateDist.cs" />
+    <Compile Include="CountSmaller.cs" />
     <Compile Include="MinDist2Numbers.cs" />
     <Compile Include="OperatingAnArray.cs" />
     <Compile Include="Program.cs" />

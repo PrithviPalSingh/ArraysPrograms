@@ -69,11 +69,16 @@ namespace Arrays
             //Console.WriteLine(minmaxdist.minDist(new long[] { 86, 39, 90, 67, 84, 66, 62 },
             //     7, 86, 84));
 
-            OperatingAnArray opa = new OperatingAnArray();
-            var a = new int[] { 2, 4, 1, 0, 6 };
-            opa.insertEle(a, 2, 2);
-            
-            Console.WriteLine(a[2]);
+            //OperatingAnArray opa = new OperatingAnArray();
+            //var a = new int[] { 2, 4, 1, 0, 6 };
+            //opa.insertEle(a, 2, 2);
+
+            //Console.WriteLine(a[2]);
+
+            //ChocolateDist cc = new ChocolateDist();
+            //Console.WriteLine(cc.GetChocDiff(new long[] { 52, 55, 100, 33 }, 1));
+
+            Console.WriteLine(CountSmaller.getCount(new long[] { 12, 1, 2, 3, 0, 11, 4 }));
 
 
             Console.Read();
