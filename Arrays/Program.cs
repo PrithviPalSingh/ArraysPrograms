@@ -78,9 +78,24 @@ namespace Arrays
             //ChocolateDist cc = new ChocolateDist();
             //Console.WriteLine(cc.GetChocDiff(new long[] { 52, 55, 100, 33 }, 1));
 
-            Console.WriteLine(CountSmaller.getCount(new long[] { 12, 1, 2, 3, 0, 11, 4 }));
+            //Console.WriteLine(CountSmaller.getCount(new long[] { 12, 1, 2, 3, 0, 11, 4 }));
+            //var a = find3Numbers.find3NumbersOpt(new int[]
+            //{1, 2, 1, 1, 3}, 5);
 
+            //MaxSumPath ms = new MaxSumPath();
+            //Console.WriteLine(ms.maxPathSum(new int[] { 2, 3, 7, 10, 12 }, new int[] { 1, 5, 7, 8, }));
+            //Console.WriteLine(ms.maxPathSum(new int[] { 1, 2, 4 }, new int[] { 1, 2, 7 }));
+            //Console.WriteLine(ms.maxPathSum(new int[] { 151, 398 },
+            //    new int[] { 9, 12, 127, 203, 278, 404, 476, 477, 586,
+            //        594, 602, 612, 739, 856, 977, 999 }));
 
+            //ProductArrayPuzzle pz = new ProductArrayPuzzle();
+            //var res = pz.ProductArray(new int[] { 10, 3, 5, 6, 2 });
+            //Console.WriteLine(string.Join(' ', res));
+
+            //RepeatedElements.printDuplicates(new int[] { 0, 3, 3, 3, 3, 2, 2 }, 7);
+
+            PairWithGivenSum.isPairSum(new int[] { 1, 2, 3, 4, 5, 6, 7 }, 8);
             Console.Read();
         }
 
