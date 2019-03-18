@@ -8,6 +8,11 @@ namespace Arrays
 {
     class PairWithGivenSum
     {
+        /// <summary>
+        /// O(n)
+        /// </summary>
+        /// <param name="A"></param>
+        /// <param name="X"></param>
         public static void isPairSum(int[] A, int X)
         {
             int N = A.Length;

@@ -95,7 +95,16 @@ namespace Arrays
 
             //RepeatedElements.printDuplicates(new int[] { 0, 3, 3, 3, 3, 2, 2 }, 7);
 
-            PairWithGivenSum.isPairSum(new int[] { 1, 2, 3, 4, 5, 6, 7 }, 8);
+            //PairWithGivenSum.isPairSum(new int[] { 1, 2, 3, 4, 5, 6, 7 }, 8);
+
+            //LongestCommonSubsequence.findLongestConseqSubseq(new int[] { 1, 9, 3, 10, 4, 20, 2, 9, 2 }, 7);
+
+            //ThreeWayPartitioning.threeWayPartition(new int[] { 1, 2, 3, 3, 4 }, 1, 2);
+
+            //TrappingRainWater.fnTrappingRainWater(new int[] { 8, 8, 2, 4, 5, 5, 1 }, 7);
+
+            StocksBuySell.fnStockBuySell(new int[] { 100, 180, 260, 310, 40, 535, 695 },7 );
+
             Console.Read();
         }
 
